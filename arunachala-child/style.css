@@ -1,0 +1,40 @@
+/*
+Theme Name: arunachala-child
+Description: Child theme for arunachala theme
+Author: Kayleigh Kowatsch
+Template: arunachala
+*/
+
+body{ background-color:#808080;}
+
+blockquote{
+    padding: 2px 5px; 
+    margin-left:2px;
+    color:#ff0000;
+}
+.navbar{ 
+	border-color:#000; 
+	border-radius:2px solid;
+	}
+
+.navbar-fixed-bottom {
+  position: initial;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.quote{
+    border:2px #ff0000 solid ;
+}
+
+img{
+    margin:2%;
+}
+
+
+.site-content {
+	background: rgb(255, 255, 255);
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 2em 0.8em;
+}
