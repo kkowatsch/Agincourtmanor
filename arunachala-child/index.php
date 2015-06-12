@@ -39,7 +39,4 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-<?php if ( !is_home () ) 
-	get_sidebar(); ?>
 <?php get_footer(); ?>

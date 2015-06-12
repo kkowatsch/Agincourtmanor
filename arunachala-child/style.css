@@ -1,40 +1,155 @@
-/*
+h/*
 Theme Name: arunachala-child
 Description: Child theme for arunachala theme
 Author: Kayleigh Kowatsch
 Template: arunachala
 */
 
-body{ background-color:#808080;}
+body, input, textarea {
+  color: #666;
+    font-size: 12px;
+  line-height: 18px;
+}
 
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+      display: block;
+}
+
+html,body{
+    background-color:#ffe49b;
+}
+
+#logo {
+  width: 365px;
+  float: left;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+h2{
+    color:#800003;
+    
+}
+h2 > a{
+    color:#800003;
+}
 blockquote{
-    padding: 2px 5px; 
-    margin-left:2px;
-    color:#ff0000;
+    padding: 0 0 10% 0; 
+    color:#800003;
+    float:left;
+    clear:both;
 }
-.navbar{ 
-	border-color:#000; 
-	border-radius:2px solid;
+#title{
+    width:50%;
+    height:50%;
+}
+#navImg{
+    padding:0;
+}
+.site-header{
+    background-color:#800003;
+    font-weight:bold;
+}
+#content{
+    padding-top:0;
+}
+
+#suite{
+    border:1px ridge #dcdcdc;
+    background-color:#eeeeee;
+    padding:5px;margin:5px auto;
+    float:left;
+}
+
+.panel{
+    text-align:center;
+}
+.panel-heading > h2{
+    color:#800003;
+    font-size:1.75em;
+}
+
+#wrapper{
+    margin:0 auto;
+    padding:0;
+    max-width:100%;
+    position: relative;
+    z-index: 1;
+}
+
+.row{
+    margin:0 auto;
+    padding:0;
+}
+
+.site-footer{
+	border-top: none;
+	color: #fff;
+    background-color:#800003;
+    font-size:90%;
+	padding: 0;
+    padding-top:15px;
+	text-align: center;
+}
+
+#cc{
+    font-size:92%;
+}
+
+ul{
+    list-style-type:disc;
+}
+ul > li{
+    padding:2px;;
+}
+
+.jumbotron {
+  color: inherit;
+  background-color: #eeeeee;
+}
+
+.jumbotron p {
+  line-height: 1.4;
+  font-size:15px;
+}
+
+.jumbotron blockquote{
+   line-height: 1.4;
+   font-size:10px;
+}
+
+
+.content-area {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.contentinfo{
+    width:50%;
+}
+
+a :active{
+    color:#800003;
+}
+
+@media screen and (min-width: 768px) {
+	.site-main {
+		margin: 0 auto;
+        min-width:100%;
 	}
-
-.navbar-fixed-bottom {
-  position: initial;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-.quote{
-    border:2px #ff0000 solid ;
-}
-
-img{
-    margin:2%;
-}
-
-
-.site-content {
-	background: rgb(255, 255, 255);
-	margin: 0 auto;
-	max-width: 980px;
-	padding: 2em 0.8em;
 }

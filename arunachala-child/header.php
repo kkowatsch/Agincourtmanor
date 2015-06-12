@@ -21,6 +21,10 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
+		<!--<div id="navImg">
+			<img src="http://localhost/wp/wp-content/uploads/2015/06/Luxurious-e1434045721361.png" alt="Luxurious" width="549" height="136" class="size-full" />
+		</div>-->
+		<div class="container">
 		<div class="header-main">
 			<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -45,5 +49,5 @@
 			get_template_part( 'slider' );
 		}
 	?>
-
 		<div id="content" class="site-content">
+		
